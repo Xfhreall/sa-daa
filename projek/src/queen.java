@@ -1,10 +1,10 @@
 import java.util.Scanner;
 
-public class bnb {
+public class queen {
     int N;
 
     // Konstruktor untuk N
-    bnb(int N) {
+    queen(int N) {
         this.N = N;
     }
 
@@ -79,7 +79,7 @@ public class bnb {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Masukkan jumlah ratu: ");
         int N = scanner.nextInt();
-        bnb Queen = new bnb(N);
+        queen Queen = new queen(N);
         Queen.solveNQ();
     }
 }
